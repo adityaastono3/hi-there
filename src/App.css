@@ -31,7 +31,6 @@ a {
 .welcome {
   transform: translateZ(-1px);
   position: absolute;
-  top: 0;
 }
 
 .happy-moments {

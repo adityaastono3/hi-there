@@ -29,8 +29,10 @@ a {
 }
 
 .welcome {
+  -webkit-transform: translateZ(-1px);
   transform: translateZ(-1px);
   position: absolute;
+  top: 0;
 }
 
 .happy-moments {

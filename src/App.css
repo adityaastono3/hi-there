@@ -34,6 +34,12 @@ a {
   top: 0;
 }
 
+.happy-moments {
+  position: absolute;
+  bottom: 30px;
+  left: 10px;
+}
+
 .dots {
   display: inline-block;
   height: 16px;

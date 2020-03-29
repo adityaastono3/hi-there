@@ -25,8 +25,7 @@ class App extends Component {
             </div>
           </div>
           <div
-            className="animated fadeInDown slow delay-4s"
-            style={{ position: 'absolute', bottom: '10px', left: '10px' }}
+            className="happy-moments animated fadeInDown slow delay-4s"
           >
             Happy moments below.
           </div>

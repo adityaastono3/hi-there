@@ -214,7 +214,7 @@ a {
 
 @media only screen and (max-width: 600px) {
   .section {
-    min-height: 95vh;
+    min-height: 93vh;
   }
 
   .header-playfair {

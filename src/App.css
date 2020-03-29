@@ -24,7 +24,7 @@ a {
   position: relative;
   transform-style: preserve-3d;
   scroll-snap-align: start;
-  min-height: 100vh;
+  min-height: 98vh;
   width: 100vw;
 }
 

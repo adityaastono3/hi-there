@@ -32,9 +32,9 @@ class App extends Component {
         </div>
         <div className="section">
           <div className="box-champagne">
-            <p className="mini-header-playfair" style={{ textAlign: 'right', paddingTop: '20px' }}>I WISH SPRING WOULD END SOON</p>
+            <p className="mini-header-playfair" style={{ textAlign: 'right', paddingTop: '50px' }}>I WISH SPRING WOULD END SOON</p>
             <div className="story-box">
-              <p>
+              <p style={{ fontSize: '14px' }}>
                 Never in my wildest dream that this would came out from my mind.<br />
                 <br />
                 The moment when the flowers bloom,<br />

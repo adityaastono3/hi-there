@@ -36,7 +36,7 @@ a {
 
 .happy-moments {
   position: absolute;
-  bottom: 70px;
+  bottom: 10px;
   left: 10px;
 }
 
@@ -219,9 +219,15 @@ a {
   }
 }
 
+@media only screen and (max-width: 767px) {
+  .text-mobile {
+    font-size: 18px;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .section {
-    min-height: 93vh;
+    min-height: 92vh;
   }
 
   .header-playfair {
@@ -243,5 +249,17 @@ a {
   .story-box {
     width: 90%;
     right: 25px;
+  }
+
+  .text-mobile {
+    font-size: 14px;
+  }
+
+  .happy-moments {
+    bottom: 70px;
+  }
+
+  .playlist {
+    max-width: 100%;
   }
 }

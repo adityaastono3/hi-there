@@ -34,7 +34,7 @@ class App extends Component {
           <div className="box-champagne">
             <p className="mini-header-playfair" style={{ textAlign: 'right', paddingTop: '50px' }}>I WISH SPRING WOULD END SOON</p>
             <div className="story-box">
-              <p style={{ fontSize: '14px' }}>
+              <p className="text-mobile">
                 Never in my wildest dream that this would came out from my mind.<br />
                 <br />
                 The moment when the flowers bloom,<br />

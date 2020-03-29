@@ -38,13 +38,13 @@ class App extends Component {
               <p>
                 Never in my wildest dream that this would came out from my mind.<br />
                 <br />
-                The moment where the flowers bloom,<br />
-                The moment when puffy jackets are shelved worldwide,<br />
+                The moment when the flowers bloom,<br />
+                The moment when puffy jackets are finally shelved,<br />
                 The moment when the urge of cleaning emerges,<br />
                 The moment when...<br />
                 <br />
                 Ah whatever, i'm not trying to be poetic here.<br />
-                It's just - when all the good things come arise!<br />
+                It's just - it's when all the good things come to place!<br />
                 It's a joyful season!<br />
                 <br />
                 But - we know we are not getting it this year.<br />
@@ -53,8 +53,11 @@ class App extends Component {
                 But of course the inevitable did not allow me to do so.<br />
                 So i have something else in mind. <br />
                 <br />
-                Why don't you scroll down, and have a look?
+                Why don't you scroll down, and have a look - <span style={{ textDecoration: 'underline' }}>line by line</span>?
               </p>
+            </div>
+            <div>
+              <span className="chevron bottom flicker-5s"/>
             </div>
           </div>
         </div>

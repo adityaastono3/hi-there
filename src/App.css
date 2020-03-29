@@ -61,7 +61,7 @@ a {
 .story-box {
   display: block;
   width: 50%;
-  position: fixed;
+  position: absolute;
   right: 10%;
   text-align: left;
   margin-top: 50px;
@@ -98,7 +98,7 @@ a {
 
 .invite-circle {
   text-align: center;
-  position: fixed;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -135,7 +135,7 @@ a {
 
 .circle-text {
   width: 100%;
-  position: fixed;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -148,7 +148,7 @@ a {
   display: block;
   height: 14px;
   width: 14px;
-  position: fixed;
+  position: absolute;
   bottom: 20px;
   left: 50%;
   transform: rotate(-45deg);
@@ -165,6 +165,10 @@ a {
 
 .flicker-5s {
   animation: text-flicker 5s linear infinite;
+}
+
+.flicker-8s {
+  animation: text-flicker 8s linear infinite;
 }
 
 @keyframes text-flicker {
@@ -201,7 +205,7 @@ a {
     opacity:0.7;
     text-shadow: 0px 0px 29px rgba(240, 240, 240, 1)
   }
-  
+
   100% {
     opacity:.9;
     text-shadow: 0px 0px 29px rgba(240, 240, 240, 1)

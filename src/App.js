@@ -63,7 +63,7 @@ class App extends Component {
         </div>
         <div className="section">
           <div className="playlist">
-            <p className="header-playfair flicker-3s" style={{ textAlign: 'right', paddingRight: '10px' }}>MOMENTS</p>
+            <p className="header-playfair flicker-8s" style={{ textAlign: 'right', paddingRight: '10px' }}>MOMENTS</p>
             <p className="header-playfair flicker-5s" style={{ textAlign: 'left', paddingLeft: '10px', marginBottom: '10px' }}>LASTING</p>
             <Iframe
               className="border-gold"
@@ -71,7 +71,7 @@ class App extends Component {
               width="300"
               height="380"
             />
-            <p className="header-playfair flicker-3s" style={{ textAlign: 'left', paddingLeft: '10px' }}>HAPPINESS</p>
+            <p className="header-playfair flicker-8s" style={{ textAlign: 'left', paddingLeft: '10px' }}>HAPPINESS</p>
             <p className="header-playfair flicker-5s" style={{ textAlign: 'right', paddingRight: '10px' }}>ETERNAL</p>
           </div>
         </div>
@@ -93,7 +93,7 @@ class App extends Component {
               <p>Will you let me?</p>
             </div>
           </div>
-          <div style={{ position: 'fixed', bottom: '10px', paddingLeft: '20px', textAlign: 'left' }}>
+          <div style={{ position: 'absolute', bottom: '10px', paddingLeft: '20px', textAlign: 'left' }}>
             <div className="dots aaaa-yellow"/>
             <div className="dots aaaa-red"/>
             <div className="dots aaaa-blue"/>

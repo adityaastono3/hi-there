@@ -16,48 +16,22 @@ class App extends Component {
           </div>
           <div className="welcome">
             <div className="animated fadeInDown slow delay-2s">
-              <p className="header-playfair">
+              <p className="mini-header-playfair">
                 Hi there,
               </p>
-              <p className="header-playfair">
+              <p className="mini-header-playfair">
                 Yennhi.
               </p>
             </div>
-          </div>
-          <div
-            className="happy-moments animated fadeInDown slow delay-4s"
-          >
-            Happy moments below.
+            <div className="animated fadeInDown slow delay-4s">
+              <p className="story-unfolds flicker-8s">Story unfolds below.</p>
+            </div>
           </div>
         </div>
         <div className="section">
           <div className="box-champagne">
             <p className="mini-header-playfair" style={{ textAlign: 'right', paddingTop: '50px' }}>I WISH SPRING WOULD END SOON</p>
-            <div className="story-box">
-              <p className="text-mobile">
-                Never in my wildest dream that this would came out from my mind.<br />
-                <br />
-                The moment when the flowers bloom,<br />
-                The moment when puffy jackets are finally shelved,<br />
-                The moment when the urge of cleaning emerges,<br />
-                The moment when...<br />
-                <br />
-                Ah whatever, i'm not trying to be poetic here.<br />
-                It's just - it's when all the good things come to place!<br />
-                It's a joyful season!<br />
-                <br />
-                But - we know we are not getting it this year.<br />
-                <br />
-                I do have to admit that i had something planned for you, since like - forever.<br />
-                But of course the inevitable did not allow me to do so.<br />
-                So i have something else in mind. <br />
-                <br />
-                Why don't you scroll down, and have a look - <span style={{ textDecoration: 'underline' }}>line by line</span>?
-              </p>
-            </div>
-            <div>
-              <span className="chevron bottom flicker-5s"/>
-            </div>
+            <p className="mini-header-playfair" style={{ textAlign: 'right', paddingTop: '20px' }}>NEVER HAVE I THOUGHT THIS WOULD BE</p>
           </div>
         </div>
         <div className="section">
@@ -78,17 +52,18 @@ class App extends Component {
           <div className="invite-circle">
             <div className="wave" />
             <div className="circle-text">
-              <p style={{ margin: '0' }}>When the time comes</p>
-              <p style={{ margin: '0' }}>When we have reflected on ourselves</p>
-              <p style={{ margin: '0' }}>When we get to meet the ones we love</p>
-              <span>I want to take you </span>
+              <p style={{ margin: '0' }}>Dear the blazing sun,</p>
+              <p style={{ margin: '0' }}>Dear the blooming wild,</p>
+              <p style={{ margin: '0' }}>Dear the soothing melody,</p>
+              <span>I want to take Yennhi </span>
               <a
+                className="flicker-5s"
                 href="https://www.concertgebouw.nl/nl/page/43079/van=2020-06-03"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                here.
-              </a>
+                here
+              </a>.
               <p>Will you let me?</p>
             </div>
           </div>

@@ -22,24 +22,20 @@ a {
 
 .section {
   position: relative;
-  -webkit-transform-style: preserve-3d;
-  transform-style: preserve-3d;
   scroll-snap-align: start;
   min-height: 98vh;
   width: 100vw;
 }
 
 .welcome {
-  -webkit-transform: translateZ(-1px);
-  transform: translateZ(-1px);
   position: absolute;
-  top: 0;
+  top: 40%;
+  left: 20%;
+  transform: translate(-20%, -40%);
 }
 
-.happy-moments {
-  position: absolute;
-  bottom: 10px;
-  left: 10px;
+.story-unfolds {
+  padding-left: 10px;
 }
 
 .dots {
@@ -150,24 +146,6 @@ a {
   transform: translate(-50%, -50%);
 }
 
-.chevron::before {
-  border-style: solid;
-  border-width: 2px 2px 0 0;
-  content: '';
-  display: block;
-  height: 14px;
-  width: 14px;
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  transform: rotate(-45deg);
-  vertical-align: top;
-}
-
-.chevron.bottom:before {
-  transform: rotate(135deg);
-}
-
 .flicker-3s {
   animation: text-flicker 3s linear infinite;
 }
@@ -228,10 +206,6 @@ a {
 }
 
 @media only screen and (max-width: 600px) {
-  .section {
-    min-height: 92vh;
-  }
-
   .header-playfair {
     font-size: 48px;
   }
@@ -257,11 +231,11 @@ a {
     font-size: 14px;
   }
 
-  .happy-moments {
-    bottom: 70px;
-  }
-
   .playlist {
     max-width: 100%;
+  }
+
+  .story-unfolds {
+    padding-left: 0;
   }
 }

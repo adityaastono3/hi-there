@@ -63,8 +63,9 @@ class App extends Component {
                 rel="noopener noreferrer"
               >
                 here
-              </a>.
-              <p>Will you let me?</p>
+              </a>
+              <span> with me.</span>
+              <p>Can you make it a reality?</p>
             </div>
           </div>
           <div style={{ position: 'absolute', bottom: '10px', paddingLeft: '20px', textAlign: 'left' }}>

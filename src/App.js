@@ -30,8 +30,65 @@ class App extends Component {
         </div>
         <div className="section">
           <div className="box-champagne">
-            <p className="mini-header-playfair" style={{ textAlign: 'right', paddingTop: '50px' }}>I WISH SPRING WOULD END SOON</p>
-            <p className="mini-header-playfair" style={{ textAlign: 'right', paddingTop: '20px' }}>NEVER HAVE I THOUGHT THIS WOULD BE</p>
+            {/*<p className="mini-header-playfair" style={{ textAlign: 'right', paddingTop: '50px' }}>I WISH SPRING WOULD END SOON</p>*/}
+            {/*<p className="mini-header-playfair" style={{ textAlign: 'right', paddingTop: '20px' }}>NEVER HAVE I THOUGHT THIS WOULD BE</p>*/}
+            <nav className="menu">
+              <div className="menu__item">
+                <a className="menu__item-link">Showreel</a>
+                <div className="marquee">
+                  <div className="marquee__inner" aria-hidden="true">
+                    <span>Showreel</span>
+                    <span>Showreel</span>
+                    <span>Showreel</span>
+                    <span>Showreel</span>
+                  </div>
+                </div>
+              </div>
+              <div className="menu__item">
+                <a className="menu__item-link">Case Studies</a>
+                <div className="marquee">
+                  <div className="marquee__inner" aria-hidden="true">
+                    <span>Case Studies</span>
+                    <span>Case Studies</span>
+                    <span>Case Studies</span>
+                    <span>Case Studies</span>
+                  </div>
+                </div>
+              </div>
+              <div className="menu__item">
+                <a className="menu__item-link">Experiments</a>
+                <div className="marquee">
+                  <div className="marquee__inner" aria-hidden="true">
+                    <span>Experiments</span>
+                    <span>Experiments</span>
+                    <span>Experiments</span>
+                    <span>Experiments</span>
+                  </div>
+                </div>
+              </div>
+              <div className="menu__item">
+                <a className="menu__item-link">Our Crew</a>
+                <div className="marquee">
+                  <div className="marquee__inner" aria-hidden="true">
+                    <span>The Crew</span>
+                    <span>The Crew</span>
+                    <span>The Crew</span>
+                    <span>The Crew</span>
+                  </div>
+                </div>
+              </div>
+              <div className="menu__item">
+                <a className="menu__item-link">Contact</a>
+                <div className="marquee">
+                  <div className="marquee__inner" aria-hidden="true">
+                    <span>Contact</span>
+                    <span>Contact</span>
+                    <span>Contact</span>
+                    <span>Contact</span>
+                  </div>
+                </div>
+              </div>
+            </nav>
           </div>
         </div>
         <div className="section">
